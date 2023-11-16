@@ -12,7 +12,7 @@ check_even () {
 }
 
 
-number=2344
+number=2345
 
 check_even $number
-echo $mod
+echo "The value of $mod is outside of the function:"

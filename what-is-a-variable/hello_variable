@@ -1,5 +1,10 @@
 #!/bin/bash
 
-# Welcome to your first Bash Script
+# Welcome to your first Bash Script           
 
-echo 'Hello World!'
+#!/bin/bash
+
+hello_message='Hello, Jon!'
+current_dir=$(pwd)
+
+echo "$hello_message from $current_dir"
